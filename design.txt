@@ -1,0 +1,32 @@
+The Bunny Boiler
+
+Summary
+A mobile game in which you have to try and stop a bunny from being boiled alive whilst he tries to escape from the pan of boiling water.
+The game features a stove with a grid of gas hobs. On one of these hobs is a large pan of water with The Bunny inside. You have controls to turn the gas hobs off, but someone else is constantly trying to boil the bunny, and is turning them back on again. You can also move the pan around the stove, to try and keep it on a hub that has been turned off. Unfortunately, the hobs take a while to cool down, so leaving the pan on the same hob and just turning it off when it is turned on, will not stop the bunny from boiling. You need to move the pan around to the coolest hob. There is also the problem that the lid on the pan keeps falling closed. When it is closed, it knocks the bunny back to the bottom of the pan and he will boil quicker. You have to tap the pan to knock the lid open and slow the rate at which the pan heats up.
+
+Winning
+You will loose the game if the water and thus the bunny boils. You will win the game when the bunny escapes from the pan and jumps off the stove.
+
+Player Actions
+Accelerometers – You can knock the device to knock the pan from one hob to the next. This can be done in the four directions. 
+Hob Switches – Holding you finger on a hob switch will turn it off.
+Tapping the pan lid – This will open or close the pan lid.
+
+Game Actions
+The game will turn the hobs on to try and boil the bunny.
+The bunny will try to climb out of the pan when the lid is open.
+When the lid closes, the bunny will fall into the pan and flail around for a while before trying to climb out again.
+
+Events
+When the pan is on a hob that is lit, the temperature in the pan will rise.
+When the pan is on a hob that is unlit, the temperature in the pan will drop.
+When the pan Knocks up against the edge of the stove it will knock the bunny back into the pan and the lid will fall shut.
+When the appropriate switch has been pressed for the required time the hob will turn off. 
+
+Levels
+The AI used to turn the hobs on can become quicker and cleverer as the levels increase.
+The rate at which the water changes can be changed in levels.
+The sensitivity of the accelerometers can be changed.
+
+Behaviour
+A hob stays hot after being turned off. Thus the water temperature in the pan will drop faster moving a pan to a cold hob, than turning the hob that it is on, off. The AI will get quicker at turning a hob back on, the longer that the pan is on that hob. This will ensure that not moving the pan will never win.
